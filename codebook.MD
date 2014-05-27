@@ -7,7 +7,7 @@ This is the variable indicating the type of activity the subject was engaged in 
 This is the ID number of each of the 30 subjects in the Test and Train data sets as a factor with 30 Levels: 1:30
 
 ## Coumns 3 to 68: Means and Std Deviations of Measurements ##
-These columns represent the measurements of mean and standard deviation for the gyroscope and accelerometer measurements taken from the raw data:
+These columns represent the measurements of mean and standard deviation for the gyroscope and accelerometer measurements taken from the raw data. This data is 'aggregated' by user and by activity using "AGGREGATE()" function calling the MEAN() function.
 
 tBodyAcc-mean()-X	
 tBodyAcc-mean()-Y	
